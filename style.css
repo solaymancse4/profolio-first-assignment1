@@ -1,0 +1,137 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
+    color: orange;
+}
+h3{
+    color: indigo;
+}
+.half-width{
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 400px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+}
+.about{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.topnav {
+    background-color:white;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.tomato-highlight{
+    color: tomato;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.blue-highlight{
+    color:#363958;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+  margin:7px;
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .stay-connected{
+      text-align: center;
+      color: gray;
+  }
+  .hello-design{
+      text-align: center;
+      color: indigo;
+  } 
+  .connected img{
+      margin: 5px 0px 5px 130px;
+  }
+  .connected .btn {
+    position: absolute;
+    top: 250%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color:tomato;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .connected .btn:hover {
+    background-color: black;
+  }
+  .centered {
+    position: absolute;
+    top: 250%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  .txt-color{
+      color: black;
+  }
